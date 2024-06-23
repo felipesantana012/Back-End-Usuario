@@ -2,13 +2,13 @@
 import express from 'express';
 import bodyParser from "body-parser";
 import "dotenv/config";
-import dbMongoConfig from "./config/dbMongoConfig";
-import routes from './routes/index';
+import conectarDB from "./config/dbMongoConfig.js";
+import routes from './routes/index.js';
 
 const app = express();
 app.use(bodyParser.json());
 app.use(express.json());
-dbMongoConfig();
+conectarDB();
 app.use("/", routes);
 
 

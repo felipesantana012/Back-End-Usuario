@@ -1,4 +1,4 @@
-import UsuarioService from "../service/UsuarioService";
+import UsuarioService from "../service/UsuarioService.js";
 const usuarioService = new UsuarioService();
 
 class UsuarioController {

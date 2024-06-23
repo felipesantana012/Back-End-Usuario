@@ -1,5 +1,5 @@
-import UsuarioRepository from "../UsuarioRepository";
-import Usuario from "../../models/Usuario";
+import UsuarioRepository from "../UsuarioRepository.js";
+import Usuario from "../../models/Usuario.js";
 
 class MongoUsuarioRepository extends UsuarioRepository {
   async criarUsuario(usuario) {

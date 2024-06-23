@@ -1,4 +1,4 @@
-import MongoUsuarioRepository from "../repository/bancosExternos/MongoRepository";
+import MongoUsuarioRepository from "../repository/bancosExternos/MongoRepository.js";
 
 const dbRepository = new MongoUsuarioRepository();
 
